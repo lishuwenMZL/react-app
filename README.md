@@ -1,3 +1,7 @@
+## 安装依赖
+
+1. npm install  | npm i
+
 ## 开发环境
 
 1. 启动 mock 服务器：
