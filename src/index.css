@@ -1,7 +1,35 @@
 
-/*  */
-.height-full-screent {
+.box{
+  width:100%;
   height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex:1 1 100%;
+  overflow: hidden;
 }
+
+.side-bar {
+  height: 100%;
+  width: 200px;
+}
+
+
+/* 轮播图 */
+.carousel-img {
+  width: 300px;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+/* 轮播图 */
 
 @import '~antd/dist/antd.css'
